@@ -206,3 +206,26 @@ li a:hover {
     display: none;
 }
 
+.more_recipes {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.more_recipes button {
+    width: 10rem;
+    height: 3.5rem;
+    border-radius: 15px;
+    border: none;
+    background-color: var(--nav_font_color);
+    color: var(--nav_bgc);
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+    box-shadow: 5px 5px 20px rgba(65, 65, 65, 0.637);
+}
+
+.more_recipes button:hover {
+    filter: brightness(110%);
+}
