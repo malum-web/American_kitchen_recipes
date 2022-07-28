@@ -17,6 +17,7 @@
 
 body {
     background-color: whitesmoke;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 /* Nav */
@@ -30,6 +31,7 @@ body {
     box-shadow: 0 2px 20px 5px rgb(34, 34, 34);
     opacity: 0.7;
     transition: opacity 0.5s ease-in-out;
+    z-index: 1;
 }
 
 .container_nav:hover {
@@ -97,7 +99,7 @@ li a:hover {
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    margin: auto;
+    margin: auto auto auto 0;
     line-height: 45vh;
     background-color: rgba(29, 28, 28, 0.76);
     border-radius: 4rem;
@@ -107,4 +109,87 @@ li a:hover {
     font-weight: 700;
     letter-spacing: 2px;
  }
+
+ .banner img {
+    position: relative;
+    width: 70px;
+    height: 80px;
+    left: 96.2rem;
+    bottom: 2.7rem;
+ }
+
+/* Recipes */
+
+.recipes {
+    padding-top: 5rem;
+    background-color: var(--nav_bgc);
+}
+
+.container_recipes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.recipe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 38rem;
+    background: var(--nav_font_color);
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgba(65, 65, 65, 0.637);
+}
+
+.recipe img {
+    width: 300px;
+    height: 400px;
+    border: 2px solid rgba(187, 57, 57, 0.514);
+    border-radius: 15px;
+    transition: width 0.5s linear, height 0.5s linear;
+}
+
+.recipe img:hover {
+    width: 310px;
+    height: 410px;
+}
+
+.recipe_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe_info h2 {
+    padding: 1rem;
+}
+
+.recipe_info p {
+    text-align: center;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.recipe_info button {
+    width: 6.5rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 15px;
+    background-color: var(--nav_bgc);
+    color: var(--nav_font_color);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.recipe_info button:hover {
+    filter: brightness(110%);
+}
+
+.container_more {
+    display: none;
+}
 
