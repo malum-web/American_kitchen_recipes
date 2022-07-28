@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
 /* font-family: 'Lobster Two', cursive; */
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+/* font-family: 'Architects Daughter', cursive; */
 
 :root {
     --nav_bgc: RGB(187, 57, 57);
@@ -71,12 +72,12 @@ li a {
     display: block;
     color: var(--nav_font_color);
     text-align: center;
-    padding: 1.5rem 3rem;
+    padding: 1rem 3rem;
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 700;
     border-radius: 80px;
-    margin-top: 0.1rem;
+    margin-top: 0.5rem;
     margin-bottom: 0.1rem;
 }
 
@@ -202,6 +203,10 @@ li a:hover {
     filter: brightness(110%);
 }
 
+.recipe_info button:active {
+    transform: scale(0.98);
+}
+
 .container_more {
     display: none;
 }
@@ -228,4 +233,8 @@ li a:hover {
 
 .more_recipes button:hover {
     filter: brightness(110%);
+}
+
+.more_recipes button:active {
+    transform: scale(0.98);
 }
