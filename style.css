@@ -243,6 +243,7 @@ li a:hover {
     background-color: var(--nav_bgc);
     padding: 1.5rem;
     border-radius: 15px;
+    box-shadow: 5px 5px 20px rgba(65, 65, 65, 0.637);
 }
 
 .container_opinions {
@@ -256,6 +257,12 @@ li a:hover {
     flex-direction: row;
     align-items: center;
     gap: 1rem;
+}
+
+.stars {
+    background-color: rgba(34, 34, 34, 0.212);
+    border-radius: 15px;
+    padding: 0.5rem;
 }
 
 .stars i {
@@ -277,9 +284,29 @@ li a:hover {
     border: solid 8px var(--nav_font_color);
 }
 
+.info p {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
 .fa-quote-left {
     color: rgba(3, 3, 3, 0.616);
     font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.author p:first-of-type{
+    font-style: italic;
+}
+
+.author p+p {
+    text-align: right;
+    margin-top: 0.5rem;
+}
+
+.author p span {
+    font-size: 0.8rem;
+    font-style: italic;
 }
 
 
