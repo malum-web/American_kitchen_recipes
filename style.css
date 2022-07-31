@@ -200,9 +200,7 @@ li a:hover {
     transform: scale(0.98);
 }
 
-.container_more {
-    display: none;
-}
+/* More recipes when click button */
 
 .more_recipes {
     padding: 1.5rem;
@@ -232,6 +230,17 @@ li a:hover {
     transform: scale(0.98);
 }
 
+.container_more {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+
+
+/* Opinions */
+
 .opinions {
     background-color: var(--nav_font_color);
     padding: 2rem;
@@ -249,6 +258,7 @@ li a:hover {
 .container_opinions {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     height: 30rem;
 }
 
@@ -382,6 +392,10 @@ li a:hover {
     .recipe img:hover {
         width: 75%;
         height: 65%;
+    }
+
+    .container_more {
+        flex-direction: column;
     }
 
     .opinions {
