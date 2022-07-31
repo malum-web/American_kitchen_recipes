@@ -333,6 +333,45 @@ li a:hover {
     font-style: italic;
 }
 
+/* Kontakt */
+#contact {
+    background-color: rgb(51, 39, 39);
+    padding: 1rem;
+}
+
+.contact_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact_container p {
+    font-size: 1.2rem;
+    color: var(--nav_font_color);
+}
+
+.contact_container i {
+    font-size: 1.9rem;
+    cursor: pointer;
+}
+
+.fa-facebook {
+    color: rgb(1, 101, 225);
+}
+
+.fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-twitter {
+    color: rgb(29, 155, 240);
+}
+
 
 @media screen and (max-width: 850px) {
     ul {
