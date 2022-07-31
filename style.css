@@ -5,6 +5,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 /* font-family: 'Architects Daughter', cursive; */
 
+/* Dodać media od 600 do 1440 i js na button*/
+
 :root {
     --nav_bgc: RGB(187, 57, 57);
     --nav_font_color: RGB(104, 179, 174);
@@ -362,10 +364,9 @@ li a:hover {
 
 .fa-instagram {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  -webkit-background-clip: text;
-          /* Also define standard property for compatibility */
-          background-clip: text;
-  -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .fa-twitter {
@@ -373,7 +374,13 @@ li a:hover {
 }
 
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 600px) {
+    .logo img {
+        height: 2.5rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
     ul {
         margin-right: 1rem;
     }
@@ -387,13 +394,14 @@ li a:hover {
 
     .banner {
         background-size: 100vw 200px;
+        height: 50vh;
     }
     .banner h1 {
         width: 95%;
         height: 30%;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         text-align: center;
-        line-height: 50vh;
+        line-height: 9vh;
         left: 2%;
         padding: 0.2rem;
     }
@@ -407,7 +415,7 @@ li a:hover {
     }
 
     .recipes h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding-bottom: 0.5rem;
     }
 
@@ -420,11 +428,11 @@ li a:hover {
     .recipe_info h2 {
         padding: 0.5rem;
         color: black;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .recipe img {
-        width: 70%;
+        width: 60%;
         height: 60%;
     }
 
@@ -464,5 +472,13 @@ li a:hover {
 
     .info {
         flex-direction: row;
+    }
+
+    .contact_container {
+        font-size: 1rem;
+    }
+
+    .contact_container i {
+        font-size: 1.5rem;
     }
   }
