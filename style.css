@@ -8,8 +8,8 @@
 /* Dodać media od 600 do 1440 i js na button*/
 
 :root {
-    --nav_bgc: RGB(187, 57, 57);
-    --nav_font_color: RGB(104, 179, 174);
+    --nav_bgc: rgb(187, 57, 57);
+    --nav_font_color: rgb(104, 179, 174);
 }
 
 * {
@@ -93,10 +93,11 @@ li a:hover {
     width: 100%;
     height: 100vh;
     background-color: rgb(223, 219, 219);
-    background-image: url(/img/new-york-city.png);
+    /* background-image: url(/img/new-york-city.png); */
+    background-image: url(/img/undraw_chef_cu-0-r.svg), url(/img/undraw_cooking_re_g99p.svg);
     background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 100vw 560px;
+    background-position: left, right bottom;
+    background-size: 30vw 560px, 30vw 45vh;
  }
 
  .banner h1 {
