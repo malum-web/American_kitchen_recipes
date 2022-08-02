@@ -96,7 +96,7 @@ li a:hover {
     background-color: rgb(223, 219, 219);
     background-image: url(/img/undraw_chef_cu-0-r.svg), url(/img/undraw_cooking_re_g99p.svg);
     background-repeat: no-repeat;
-    background-position: left, right bottom;
+    background-position: left, 1350px 530px;
     background-size: 30vw 560px, 30vw 45vh;
  }
 
