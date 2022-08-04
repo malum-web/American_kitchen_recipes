@@ -447,7 +447,7 @@ li a:hover {
     }
 
     .recipes {
-        padding: 1rem;
+        padding: 0.5rem;
     }
 
     .recipes h2 {
@@ -456,8 +456,8 @@ li a:hover {
     }
 
     .recipe {
-        height:30rem;
-        width: 90%;
+        height:28rem;
+        width: 80%;
         margin: 10px;
     }
 
@@ -467,14 +467,15 @@ li a:hover {
         font-size: 1.2rem;
     }
 
-    .recipe img {
-        width: 50%;
-        height: 60%;
+    .img_container {
+        width: 55%;
+        height: 45%;
+        margin-bottom: 5px;
     }
-
-    .recipe img:hover {
-        width: 65%;
-        height: 55%;
+    
+    .img_container:hover {
+        width: 55%;
+        height: 45%;
     }
 
     .container_more_recipes {
