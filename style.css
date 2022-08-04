@@ -154,7 +154,7 @@ li a:hover {
 .img_container {
     width: 60%;
     height: 60%;
-    border: 2px solid rgba(187, 57, 57, 0.514);
+    border: 2px solid rgba(187, 57, 57, 0.7);
     border-radius: 15px;
     transition: width 0.5s linear, height 0.5s linear;
 }
