@@ -7,7 +7,6 @@ function load_more() {
         button.textContent = "Load More"
     } else {
         recipes.style.display = 'flex';
-        recipes.style.opacity = '1';
         button.textContent = "Close"
     }
 }
