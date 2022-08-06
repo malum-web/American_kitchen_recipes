@@ -12,3 +12,4 @@ function load_more() {
 }
 
 button.addEventListener('click', load_more);
+
